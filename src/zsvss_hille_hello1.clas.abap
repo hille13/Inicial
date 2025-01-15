@@ -1,0 +1,23 @@
+CLASS zsvss_hille_hello1 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zsvss_hille_hello1 IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+
+  OUT->write( 'HELLO PEOPLE FROM ABAP!! ' ) .
+
+  ENDMETHOD.
+ENDCLASS.
